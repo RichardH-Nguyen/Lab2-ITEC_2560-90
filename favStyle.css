@@ -1,0 +1,38 @@
+.jumbotron{
+    background-color: #4e86e0;
+    color: #e0a04e;
+    text-align: center;
+}
+
+p{
+    color:#4e86e0;
+}
+
+ul{
+    color:#4e86e0;
+}
+
+h1{
+    color:yellow;
+}
+
+.section_header {
+    color: yellow;
+}
+
+body{
+    background-color:black;
+}
+
+th{
+    color:black;
+    background-color: white
+}
+
+td{
+    color:white;
+}
+
+a{
+    color:red;
+}

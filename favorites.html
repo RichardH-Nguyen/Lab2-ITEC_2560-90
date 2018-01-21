@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first web page</title>
+
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css"  href="favStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron col-md-12">
+            <h1>My Favorite Things</h1>
+        </div>
+
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#movie" aria-controls="movie" role="tab" data-toggle="tab">Movie</a></li>
+            <li role="presentation"><a href="#band" aria-controls="band" role="tab" data-toggle="tab">Band</a></li>
+            <li role="presentation"><a href="#food" aria-controls="food" role="tab" data-toggle="tab">Food</a></li>
+            <li role="presentation"><a href="#images" aria-controls="images" role="tab" data-toggle="tab">Images</a></li>
+            <li role="presentation"><a href="#books" aria-controls="books" role="tab" data-toggle="tab">Books</a></li>
+            <li role="presentation"><a href="#program" aria-controls="program" role="tab" data-toggle="tab">Program</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="movie">
+                <div class = "favorite_section">
+                    <h2 class = "section_header">Favorite Movie</h2>
+                    <p>
+                        <span id="favorite_movie"><i>Drive:</i></span>
+                        <br>
+                        <a href="http://www.imdb.com/title/tt0780504/?ref_=nv_sr_1">Drive</a>
+                        is about a man that is a wheelman for some bad people and trying to get out of
+                        the life. It has high speed chases and awesome music.
+
+                    </p>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="band">
+                <div class = "favorite_section">
+                <h2 class = "section_header">Favorite Band</h2>
+                <p>
+                    <span id="favorite_band"><b>Daft Punk:</b></span>
+                    <br>
+                    Hot, funky, electronic beats by two <a href="https://daftpunk.com/">robots.</a>
+                </p>
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="food">
+                <div class = "favorite_section">
+                    <h2 class = "section_header">Favorite Foods</h2>
+                    <ul>
+                        <li>Chicken</li>
+                        <li>Hamburgers</li>
+                        <li id="most_favorite_food">Steak</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="images">
+                <div class = "favorite_section">
+                    <h2 class = "section_header">Some Favorite Images</h2>
+                    <img class= "favorite_image" src= "bryan-minear-317365.jpg" height="200">
+                    <img class= "favorite_image" src= "tawan-rapipong-349859.jpg" height="200">
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="books">
+                <div class = "favorite_section">
+                    <h2 class = "section_header">Favorite Books</h2>
+                    <table>
+                        <tr><th>Name</th><th>Author</th><th>Link</th></tr>
+                        <tr><td>Marvel: Civil War</td><td>Mark Millar</td><td><a href="https://en.wikipedia.org/wiki/Civil_War_(comics)">Wiki</a></td></tr>
+                        <tr><td>Girl with the Dragon Tattoo</td><td>Stieg Larsson</td><td><a href="https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo">Info</a></td></tr>
+                        <tr><td>Girl with All the Gifts</td><td>M.R. Carey</td><td><a href="https://en.wikipedia.org/wiki/The_Girl_with_All_the_Gifts">Data</a></td></tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="program">
+                <div class="favorite_section">
+                    <h2 class="section_header">Favorite Program</h2>
+                    <a href="Lab-2.html">Marvel comics search</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
